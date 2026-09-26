@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+data/
+*.parquet
+models/
+*.pt
+*.bin
+mlruns/
+node_modules/
