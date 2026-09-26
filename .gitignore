@@ -217,10 +217,28 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-data/
-*.parquet
-models/
+
+# --- Projet ---
+/data/
+/artifacts/
+
+# Poids de modèles, où qu'ils soient
 *.pt
 *.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Données intermédiaires
+*.parquet
+
+# Spark local
+spark-warehouse/
+metastore_db/
+derby.log
+
+# MLflow
 mlruns/
+
+# Frontend
 node_modules/
